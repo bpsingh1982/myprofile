@@ -1,0 +1,38 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment folder (common names)
+venv/
+fastai_env/
+fastai/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore datasets (they're large and can be re-downloaded)
+data/
+*.tar.gz
+
+# Ignore trained models (if too large to store in Git)
+models/
+*.h5
+*.pth
+*.pkl
+
+# Ignore FastAI export files (such as model exports)
+*.pkl
+
+# Ignore logs (if you have any training logs)
+logs/
+
+# Ignore temporary files (e.g., editor-specific files)
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ignore my custome md files
+fast*.md
